@@ -1,0 +1,164 @@
+
+/* Header */
+.header-container {
+  padding: 20px 0;
+  background-color: #FF6B6B; 
+  color: white;
+  border: 1px solid #FF6B6B;
+  font-family: "Verdana", sans-serif; 
+}
+.moving-text-container {
+  overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
+}
+
+.moving-text {
+  animation: moveText 10s linear infinite; /* 10s animation duration, linear timing function, infinite loop */
+  white-space: nowrap; /* Prevent text from wrapping to a new line */
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Search input */
+#searchInput {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+/* Dropdowns */
+.form-select {
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset button */
+#resetFiltersButton {
+  margin-top: 10px;
+  background-color: #960025; 
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#resetFiltersButton:hover {
+  background-color: #FF7171; 
+}
+
+/* Product Card */
+.card {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFCFCF; 
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-color: #FFD8D8; 
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.product-details {
+  font-size: 16px;
+  color: #555; 
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pagination-container {
+  text-align: center;
+}
+
+.pagination-container button {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #f3708a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-container button i {
+  margin-left: 5px;
+  cursor: pointer;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:palevioletred;
+  color: white;
+  text-align: center;
+}
+
+.total-cost-container p{
+  font-family: 'Times New Roman', Times, serif;
+}
+.moving-box {
+  width: 500px;
+  height: 50px;
+  background-color: #f02fbc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: moveAnimation 4s linear infinite;
+  font-size: 25px;
+}
+
+@keyframes moveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
