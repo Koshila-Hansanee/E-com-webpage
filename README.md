@@ -43,6 +43,11 @@ Contributions are welcome! If you'd like to contribute to the project, follow th
 
 ## License
 This project is licensed under the MIT License.
+## web page
+![Screenshot (16)](https://github.com/Koshila-Hansanee/E-com-webpage/assets/122087992/87dfb4da-2a4e-4e05-9fc1-0fe3f731998a)
+![Screenshot (17)](https://github.com/Koshila-Hansanee/E-com-webpage/assets/122087992/f2e89b6c-214a-422c-90e1-9b3589a981ff)
+
+
 
 ---
 
